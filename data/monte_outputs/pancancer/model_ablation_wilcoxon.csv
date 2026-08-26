@@ -1,7 +1,0 @@
-comparison,method_1,method_2,statistic,p_value
-MONTE vs OLS,Cor_Monte_Weight_TopN,Cor_OLS,159.0,0.022027015686035156
-MONTE vs Var,Cor_Monte_Weight_TopN,Cor_Var_Weight,100.0,0.5795888900756836
-MONTE vs SNR,Cor_Monte_Weight_TopN,Cor_Monte_Weight,124.0,0.24900436401367188
-SNR vs OLS,Cor_Monte_Weight,Cor_OLS,135.0,0.13867759704589844
-SNR vs Var,Cor_Monte_Weight,Cor_Var_Weight,64.0,0.9384536743164062
-Var vs OLS,Cor_Var_Weight,Cor_OLS,191.0,0.00029277801513671875

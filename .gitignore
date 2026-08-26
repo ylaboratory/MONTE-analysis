@@ -28,6 +28,7 @@ ipython_config.py
 
 ###### MacOS
 .DS_Store
+._.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -37,3 +38,16 @@ Thumbs.db:encryptable
 
 ###### folders
 data/cancer-methyl
+data/methylation
+legacy/
+data/monte_outputs/probe_correction
+data/monte_outputs/cancer_specific
+results/
+data/
+.venv
+
+###### files
+src/scripts
+src/jupyter-notebooks/metrics_disagreement.ipynb
+src/jupyter-notebooks/S00_data_merge.ipynb
+src/jupyter-notebooks/S01_monte_selected_probes.ipynb
