@@ -20,7 +20,7 @@ This repository contains the code and notebooks used to reproduce the analyses p
 ## Folder structures
 
 > [!NOTE]
-> The TCGA and PCAWG DNA methylation datasets used in this study are available on [Zenodo](ADD_ZENODO_URL_HERE). After downloading the data, update the data paths in the relevant scripts and notebooks to point to their location on your system.
+> All data used in this study, including the TCGA and PCAWG datasets and generated files, are available on [Zenodo](ADD_ZENODO_URL_HERE). After downloading the archive, unzip it into this folder. The scripts should then be able to access all required files.
 
 This repository contains two main folders: `data` and `src`. The scripts expect the required datasets to be available in the `data` folder. The `src` folder is divided into `jupyter-notebooks`, which contains the primary analysis code, and `plots`, which contains the scripts used to generate the figures. The notebooks corresponding to the analyses in the paper are listed in the table below. Because the plotting scripts are labeled with their corresponding figure numbers, they are not described further here.
 
