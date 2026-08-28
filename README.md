@@ -1,6 +1,6 @@
 # MONTE analysis
 
-This repository contains the code and notebooks used to reproduce the analyses presented in the MONTE paper.
+This repository contains the code and notebooks used to reproduce the analyses presented in the MONTE paper. If you are looking for tutorial or the main package, please check [MONTE](https://github.com/ylaboratory/MONTE).
 
 ---
 
