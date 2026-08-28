@@ -52,9 +52,6 @@ cd MONTE-analysis
 uv sync --locked
 ```
 
-> [!NOTE]
-> MONTE is installed automatically from the GitHub repository when you initialize the environment. Because the repository includes pretrained models, installation may take some time.
-
 This command creates a virtual environment in `.venv` and installs the exact dependency versions recorded in `uv.lock`, including the MONTE package.
 
 If you use Jupyter through an editor such as VS Code, select the Python interpreter located in the `.venv` directory.
@@ -89,16 +86,15 @@ The MONTE preprint is available on [bioRxiv](https://www.biorxiv.org/content/10.
 If you use MONTE or the code in this repository in your research, please cite:
 
 ```bibtex
-@article {
-    Kim2026.01.22.701164,
+@article {Kim2026.01.22.701164,
     author = {Kim, Mirae and Lee, Wei-Hao and Yao, Vicky},
-    title = {MONTE: Methylation-based Observation Normalization and Tumor purity Estimation},
+    title = {MONTE enables unified pan-cancer tumor purity estimation and methylation correction from bulk DNA methylation arrays},
     elocation-id = {2026.01.22.701164},
     year = {2026},
     doi = {10.64898/2026.01.22.701164},
     publisher = {Cold Spring Harbor Laboratory},
-    URL = {https://www.biorxiv.org/content/early/2026/01/23/2026.01.22.701164},
-    eprint = {https://www.biorxiv.org/content/early/2026/01/23/2026.01.22.701164.full.pdf},
+    URL = {https://www.biorxiv.org/content/early/2026/08/26/2026.01.22.701164},
+    eprint = {https://www.biorxiv.org/content/early/2026/08/26/2026.01.22.701164.full.pdf},
     journal = {bioRxiv}
 }
 ```
